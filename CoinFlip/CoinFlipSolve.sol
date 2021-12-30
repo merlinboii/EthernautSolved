@@ -6,7 +6,7 @@ interface CoinFlip {
    function flip(bool _guess) external returns (bool);
 }
 
-contract CoinFlipHacked {
+contract CoinFlipHack {
 
   using SafeMath for uint256;
   uint256 lastHash;
