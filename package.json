@@ -1,0 +1,24 @@
+{
+  "name": "ethernaut_sloved",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filmptz/ethernaut_solved.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filmptz/ethernaut_solved/issues"
+  },
+  "homepage": "https://github.com/filmptz/ethernaut_solved#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "truffle": "^5.4.26",
+    "web3": "^1.6.1"
+  }
+}
