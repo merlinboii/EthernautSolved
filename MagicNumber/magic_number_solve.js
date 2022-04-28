@@ -25,6 +25,7 @@ var web3 = new Web3(
    }
    TURN INTO OPCODE ->  PUSH 0x0A, PUSH 0x0C, PUSH 0x00 CODECOPY, PUSH 0x0A, PUSH 0, RETURN
    TURN INTO BYTE -> 600A 600C 6000 39 600A 6000 F3
+ *
  * BYTECODE : 0x600A600C600039600A6000F3602A60805260206080F3
  * 
  * Might be useful Link
@@ -42,7 +43,7 @@ const attack = async () => {
 
   web3.eth.accounts.wallet.add(mnemonicWallet.privateKey)
 
-  web3.eth.sendTransaction({ from: player, data: bytescode ,gas: 4000000, value: 100}, 
+  web3.eth.sendTransaction({ from: player, data: bytescode}, 
    (err,res) => {
        if (!err) {
         console.log(res)
