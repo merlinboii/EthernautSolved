@@ -1,5 +1,4 @@
 require('dotenv').config({path:__dirname+'/./../.env'})
-var Tx = require('ethereumjs-tx').Transaction;
 const ethers = require('ethers');
 var Web3 = require("web3");
 var web3 = new Web3(
