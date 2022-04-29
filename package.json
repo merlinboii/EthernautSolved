@@ -18,7 +18,9 @@
   "homepage": "https://github.com/filmptz/ethernaut_solved#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "truffle": "^5.4.26",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.6.4",
+    "truffle": "^5.5.11",
     "web3": "^1.6.1"
   }
 }
